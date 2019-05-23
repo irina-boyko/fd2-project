@@ -1,0 +1,23 @@
+{
+  "name": "fd2-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass ./public/dist/styles/index.scss -o ./public/src/styles/index.css",
+    "min": "minify -o ./public/dist/styles/index.min.css ./public/src/styles/index.css"
+  },
+  "author": "Irina Boyko",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "minifier": "^0.8.1",
+    "node-sass": "^4.12.0",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "lodash": "^4.17.11"
+  }
+}
